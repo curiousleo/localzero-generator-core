@@ -36,14 +36,9 @@ Setup
 		- On Windows Token add the token Windows Anmeldeinformationen (similar tools exist on linux and mac)
 			- Generische Anmeldeinformationen hinzufügen (Adresse: git:https://github.com, Benutzername: Git Nutzername, Passwort: Token)
     - get this Git Repo (if you haven't done so already)
-	- :code:`git clone https://github.com/GermanZero-de/localzero-generator-core`
-
-- Install poetry and pre-commit
-	- :code:`install-environment.sh`
-	- **On Windows:** install Node.js (necessary for pyright)
+	- :code:`git clone --recurse-submodules https://github.com/GermanZero-de/localzero-generator-core`
 
 - Get the required Data Repos
-    - Clone https://github.com/GermanZero-de/localzero-data-public into ./data/public
     - Clone https://github.com/GermanZero-de/localzero-data-proprietary into ./data/proprietary
 
       **ISSUE:** You might not have access to the proprietary repository. We are providing a REST API Service soon.
