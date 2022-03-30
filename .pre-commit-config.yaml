@@ -2,7 +2,7 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
+    rev: v4.1.0
     hooks:
     -   id: trailing-whitespace
     -   id: mixed-line-ending
@@ -13,7 +13,7 @@ repos:
     - id: no-commit-to-branch # Work in branches please -- not in main
       args: ['--branch', 'main']
 -   repo: https://github.com/psf/black
-    rev: 21.12b0
+    rev: 22.3.0
     hooks:
       - id: black
         args: ["--target-version", "py310"]
