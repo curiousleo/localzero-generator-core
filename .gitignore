@@ -5,7 +5,6 @@
 *.xlsx
 
 # See the README in data
-/data/public/
 /data/proprietary/
 
 # This is Bene specific
